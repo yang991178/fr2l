@@ -47,6 +47,8 @@ div.step {
 div.step .title {
     color: #808080;
     font-weight: bold;
+    display: flex;
+    align-items: center;
 }
 div.step .title span {
     display: inline-block;
