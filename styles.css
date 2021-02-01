@@ -1,0 +1,88 @@
+html, body {
+    background-color: #f3f2f1;
+    font-family: sans-serif;
+    margin: 0;
+    line-height: 1.5;
+}
+body {
+    min-height: 100%;
+    width: 80%;
+    max-width: 450px;
+    margin: 32px auto;
+    font-size: 14px;
+}
+
+a {
+    color: #0078d4;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: #004578;
+    text-decoration: underline;
+}
+a.sec, a.sec:hover, a.sec:active {
+    color: #808080;
+    text-decoration: underline;
+}
+p.note {
+    color: #808080;
+    font-size: .75rem;
+}
+
+div#header img {
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    padding: 3px;
+    border-radius: 15px;
+    border:1px solid #e0e0e0;
+}
+div#header h2 span {
+    font-weight: 300;
+}
+
+div.step {
+    margin: 32px 0;
+}
+div.step .title {
+    color: #808080;
+    font-weight: bold;
+}
+div.step .title span {
+    display: inline-block;
+    background-color: #bbb;
+    color: #f3f2f1;
+    border-radius: 50%;
+    font-size: 9px;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+    margin-right: 6px;
+}
+
+div#downloads {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 16px 0;
+}
+div#downloads img {
+    width: 140px;
+}
+div#downloads a {
+    margin: 7px 0;
+}
+
+a#import {
+    display: inline-block;
+    padding: 12px 14px;
+    margin: 24px 0;
+    line-height: 1;
+    text-decoration: none;
+    color: var(--text-color);
+    width: auto;
+    background: #0078d4;
+    box-shadow: 0 .25rem 1rem #0078d480;
+    color: #fff;
+}
