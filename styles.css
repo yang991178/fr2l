@@ -88,3 +88,7 @@ a#import {
     box-shadow: 0 .25rem 1rem #0078d480;
     color: #fff;
 }
+a#import.disabled {
+    background: #808080;
+    box-shadow: none;
+}
